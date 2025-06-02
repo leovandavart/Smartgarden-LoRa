@@ -1,0 +1,31 @@
++--------------------------+        LoRa        +---------------------------+
+|      🏠 Zentraleinheit    | <----------------> |     🌿 Ventilknoten #1       |
+|                          |                    | (z. B. Feld Links)           |
+|  ESP32 DevKit            |                    |                             |
+|  + LoRa SX1278           |                    |  ESP32 DevKit                |
+|  + OLED (optional)       |                    |  + LoRa SX1278               |
+|                          |                    |  + Bodenfeuchtesensor        |
++--------------------------+                    |  + Relais → 12V Ventil       |
+                                                |  + Akku + Solar              |
+                                                +-----------------------------+
+
+                                               +-----------------------------+
+                                               |     🌱 Ventilknoten #2       |
+                                               | (z. B. Feld Rechts)         |
+                                               |                             |
+                                               |  ESP32 DevKit                |
+                                               |  + LoRa SX1278               |
+                                               |  + Bodenfeuchtesensor        |
+                                               |  + Relais → 12V Ventil       |
+                                               |  + Akku + Solar              |
+                                               +-----------------------------+
+
+                                               +-----------------------------+
+                                               |     ☁️ Wetterstation         |
+                                               |                             |
+                                               |  ESP32 DevKit                |
+                                               |  + LoRa SX1278               |
+                                               |  + Regensensor               |
+                                               |  + Frostsensor (DS18B20)     |
+                                               |  + Akku + Solar              |
+                                               +-----------------------------+
