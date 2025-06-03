@@ -1,9 +1,31 @@
-# Smarte Gartenbewässerung
+📦 Projektstruktur
 
-Dies ist ein gemeinsames Projekt von @leovandavart und ChatGPT.
+smarte-bewaesserung-garten/
 
-## Funktionen
-- Steuerung von 3 Zonen (Gewächshaus, Feld links, Feld rechts)
-- LoRa-Kommunikation zwischen Zentrale und Ventilen
-- Steuerung via App (Bluetooth)
-- Zeitpläne, Feuchtigkeitssensoren, Frost-/Regensensoren
+├── firmware/
+│   ├── zentralstation/         # LoRa-Empfänger (ESP32)
+│   └── ventilknoten/           # Sensorknoten & Ventilsteuerung (ESP32)
+
+│    ├── zentralstation/         # LoRa-Empfänger (ESP32)
+
+│    └── ventilknoten/           # Sensorknoten & Ventilsteuerung (ESP32)
+
+├── flutter_app/                # Mobile App (Bluetooth)
+│   └── lib/
+│       └── main.dart
+
+│    └── lib/
+
+│        └── main.dart
+
+├── docs/
+│   └── wiring_schematic.png    # Schaltplan
+└── README.md
+
+│    └── wiring_schematic.png    # Schaltplan
+
+ └── README.md
+
+
+
+---
